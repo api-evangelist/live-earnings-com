@@ -1,4 +1,4 @@
-# live-earnings-com
+# Live Earnings
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-live-earnings-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://live-earnings.com/
+Live Earnings provides a live-attributed earnings call transcription service via an API and SDKs. It streams spoken words from earnings calls in real time, attributing each speaker, enabling developers to build alerts, sentiment analysis, and trading tools. The platform offers Python and TypeScript SDKs, detailed documentation, and supports enterprise integrations for real‑time market intelligence.
+
+**Areas:** Earnings Calls · Live Transcript · API · SDK · Trading Desk
+
+## Live Earnings on APIs.io
+
+Everything profiled for Live Earnings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/live-earnings-com/](https://apis.io/providers/live-earnings-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Live Earnings Auth API](https://apis.io/apis/live-earnings-com/live-earnings-com-auth-api/) — Session tokens for browser stream access.
+- [Live Earnings Companies API](https://apis.io/apis/live-earnings-com/live-earnings-com-companies-api/) — A company's key metrics across its calls — actuals, every guide, our calculations, each figure with its source.
+- [Live Earnings Events API](https://apis.io/apis/live-earnings-com/live-earnings-com-events-api/) — Event log backfill.
+- [Live Earnings Meta API](https://apis.io/apis/live-earnings-com/live-earnings-com-meta-api/) — Call metadata + roster.
+- [Live Earnings Operator API](https://apis.io/apis/live-earnings-com/live-earnings-com-operator-api/) — OPERATOR-ONLY endpoints (`x-audience: operator`), documented so the contract is on record. They need the ingest or operator token, not a subscriber key, and…
+- [Live Earnings Report API](https://apis.io/apis/live-earnings-com/live-earnings-com-report-api/) — The report API from Live Earnings — 1 operation(s) for report.
+- [Live Earnings Sections API](https://apis.io/apis/live-earnings-com/live-earnings-com-sections-api/) — Phase boundaries (section accordion data).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Live Earnings — Streaming Channels](https://apis.io/asyncapis/live-earnings-com/live-earnings-com-asyncapi/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Live Earnings Agentic Access](https://apis.io/agentic-access/live-earnings-com/live-earnings-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CallMeta](https://apis.io/schemas/live-earnings-com/live-earnings-com-call-meta/)
+- [CallRelease](https://apis.io/schemas/live-earnings-com/live-earnings-com-call-release/)
+- [FocusSets](https://apis.io/schemas/live-earnings-com/live-earnings-com-focus-sets/)
+- [KeyMetricsPayload](https://apis.io/schemas/live-earnings-com/live-earnings-com-key-metrics-payload/)
+- [MetricHistory](https://apis.io/schemas/live-earnings-com/live-earnings-com-metric-history/)
+- [Report](https://apis.io/schemas/live-earnings-com/live-earnings-com-report/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Live Earnings Com Context](https://apis.io/jsonld/live-earnings-com/live-earnings-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Live Earnings API Rules](https://apis.io/rules/live-earnings-com/live-earnings-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Live Earnings Authentication](https://apis.io/security/live-earnings-com/live-earnings-com-authentication/)
+- [Live Earnings Domain Security](https://apis.io/security/live-earnings-com/live-earnings-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://live-earnings.com/)
+- [Documentation](https://live-earnings.com/live/docs)
+- [API reference](https://live-earnings.com/live/docs)
+- [Support](https://live-earnings.com/support)
+- [Terms of service](https://live-earnings.com/terms)
+- [Privacy policy](https://live-earnings.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.2** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 68.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 57.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/live-earnings-com/](https://apis.io/providers/live-earnings-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Live Earnings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/live-earnings-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
